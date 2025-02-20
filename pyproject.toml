@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pokeapp"
+version = "0.1.0"
+description = ""
+authors = ["noelnunesds <noelnunescosta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+pydantic = "^2.10.6"
+sqlalchemy = "^2.0.38"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
